@@ -8,6 +8,52 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Signup form</h1>
+    <form action ="/submit" method="="post>
+    <lable for="name"> Name:</lable>
+    <input text="name" id="name" name="name" required>
+    <br><br>
+    <label for="email">Email:</label>
+    <input text="email" id="email" email="email" required>
+    <br> <br>
+    <label for="gender">Gender</label>
+    <input type="radio" id="Gender" gender="gender" required>
+    <lable for="male">male:</lable>
+    <input type="radio" id="male" male="male" required>
+    <lable for="femail">Femail</lable>
+    <input type="radio" id="femail" femail="femail" required >
+    <label for="other">Other:</label>
+    <input type="radio" id="other" other="other" required>
+    <br><br>
+    
+    <label for="car">Carbrand</label>
+    <select id="car" name="car">
+      <option value="toyota">toyota:</option>
+      <option value="maruti">maruti:</option>
+      <option value="maruti">honda:</option>
+      <option value="maruti">tata:</option>
+      </select>
+      <br><br>
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" min="1" max="120" required >
+      <br><br>
+      <label for="dob">Date of birth</label>
+      <input type="data" id="dob" name="dob" required>
+      <br><br>
+      
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+      <br><br>
+      <label for="password">Password</label>
+      <input type="pasword" id="password" name="password" required>
+      <br><br>
+      <input type="checkbox" id="tos" name="tos" required>
+<label for="checkbox">agery term and conditions</label> 
+<br><br>
+<button type="submit">Submit</button>
+</form>
+    
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
